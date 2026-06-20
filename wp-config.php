@@ -1,5 +1,12 @@
 <?php
 /**
+ * Detect Vercel / Reverse Proxy SSL to prevent mixed content blocking
+ */
+if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https' ) {
+	$_SERVER['HTTPS'] = 'on';
+}
+
+/**
  * The base configuration for WordPress
  *
  * This file contains the SQLite configuration.

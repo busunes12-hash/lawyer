@@ -5,21 +5,18 @@
       "runtime": "vercel-php@0.9.0"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "^/$",
-      "dest": "/api/index.php"
+      "source": "/(.*)\\.php",
+      "destination": "/api/index.php"
     },
     {
-      "src": "/(.*)\\.php",
-      "dest": "/api/index.php"
+      "source": "/(wp-admin|wp-includes|wp-content)/(.*)",
+      "destination": "/$1/$2"
     },
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
+      "source": "/(.*)",
+      "destination": "/api/index.php"
     }
   ]
 }

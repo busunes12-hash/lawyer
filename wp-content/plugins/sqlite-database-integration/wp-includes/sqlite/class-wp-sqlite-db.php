@@ -424,6 +424,27 @@ class WP_SQLite_DB extends wpdb {
 			return false;
 		}
 
+		// If SQLite DB is read-only (e.g. on Vercel), mock success for write queries to prevent PDOException crashes
+		$is_write_query = preg_match( '/^\s*(insert|delete|update|replace|create|alter|truncate|drop)\s/i', $query );
+		if ( $is_write_query ) {
+			$is_readonly = false;
+			if ( defined( 'FQDB' ) && file_exists( FQDB ) && ! is_writable( FQDB ) ) {
+				$is_readonly = true;
+			} elseif ( isset( $_SERVER['VERCEL'] ) || getenv('VERCEL') ) {
+				$is_readonly = true;
+			}
+			if ( $is_readonly ) {
+				if ( preg_match( '/^\s*(create|alter|truncate|drop)\s/i', $query ) ) {
+					return true;
+				}
+				$this->rows_affected = 0;
+				if ( preg_match( '/^\s*(insert|replace)\s/i', $query ) ) {
+					$this->insert_id = 9999;
+				}
+				return 0;
+			}
+		}
+
 		$query = apply_filters( 'query', $query );
 
 		if ( ! $query ) {

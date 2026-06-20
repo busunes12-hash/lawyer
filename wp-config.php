@@ -58,6 +58,13 @@ define( 'WP_DEBUG_DISPLAY', false );
 // Setting WPLANG sets the default language during setup
 define( 'WPLANG', 'ar' );
 
+// Dynamic Home and SiteURL for Vercel & Local dev compatibility
+if ( isset( $_SERVER['HTTP_HOST'] ) ) {
+	$http_protocol = ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) ? 'https://' : 'http://';
+	define( 'WP_HOME', $http_protocol . $_SERVER['HTTP_HOST'] );
+	define( 'WP_SITEURL', $http_protocol . $_SERVER['HTTP_HOST'] );
+}
+
 /* Add any custom values between this line and the "stop editing" line. */
 
 // Disable WP Cron if we want to run cron jobs manually, or leave it enabled for simplicity.

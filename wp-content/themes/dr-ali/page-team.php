@@ -89,30 +89,30 @@ $is_en = ( get_locale() === 'en_US' );
                             'name'  => $is_en ? 'Dr Ali Al-Mansoor' : 'د. علي المنصوري',
                             'role'  => $is_en ? 'Founder & Senior Partner' : 'المؤسس والشريك الرئيسي',
                             'bio'   => $is_en 
-                                ? 'Dr Ali holds a PhD in Commercial Law with over 15 years advising corporate entities in Dubai and the Gulf region.'
-                                : 'يحمل الدكتور علي دكتوراه في القانون التجاري وله خبرة تزيد عن 15 عاماً في تقديم الاستشارات لكبرى الشركات في دبي والخليج.',
-                            'phone' => '+971 4 555 1234',
-                            'email' => 'ali@dr-ali.ae',
+                                ? 'Dr Ali holds a PhD in Commercial Law with over 15 years advising corporate entities in Morocco and the North Africa region.'
+                                : 'يحمل الدكتور علي دكتوراه في القانون التجاري وله خبرة تزيد عن 15 عاماً في تقديم الاستشارات لكبرى الشركات في المغرب ومنطقة شمال إفريقيا.',
+                            'phone' => '+212 5 22 555 123',
+                            'email' => 'ali@dr-ali.ma',
                             'image' => 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400'
                         ),
                         array(
-                            'name'  => $is_en ? 'Fatima Al-Suwaidi' : 'فاطمة السويدي',
+                            'name'  => $is_en ? 'Fatima Zahra Bennani' : 'فاطمة الزهراء بناني',
                             'role'  => $is_en ? 'Partner - Real Estate & Arbitration' : 'شريك - قضايا العقارات والتحكيم',
                             'bio'   => $is_en 
-                                ? 'Fatima specializes in complex property development law and represents institutional investors before DIAC and courts.'
-                                : 'تتخصص فاطمة في قوانين التطوير العقاري المعقدة وتمثل كبار المطورين والمستثمرين أمام مركز دبي للتحكيم الدولي والمحاكم.',
-                            'phone' => '+971 4 555 1235',
-                            'email' => 'fatima@dr-ali.ae',
+                                ? 'Fatima specializes in complex property development law and represents institutional investors before CIMAC and Moroccan courts.'
+                                : 'تتخصص فاطمة في قوانين التطوير العقاري المعقدة وتمثل كبار المطورين والمستثمرين أمام المركز الدولي للوساطة والتحكيم بالدار البيضاء (CIMAC) والمحاكم المغربية.',
+                            'phone' => '+212 5 22 555 124',
+                            'email' => 'fatima@dr-ali.ma',
                             'image' => 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400'
                         ),
                         array(
                             'name'  => $is_en ? 'Marcus Vance' : 'ماركوس فانس',
                             'role'  => $is_en ? 'Senior Associate - Corporate Finance' : 'مستشار أول - تمويل وقوانين الشركات',
                             'bio'   => $is_en 
-                                ? 'Marcus advises tech startups and multi-national corporations on licensing, capital ventures, and compliance.'
-                                : 'يقدم ماركوس المشورة القانونية للشركات التكنولوجية والشركات متعددة الجنسيات حول التراخيص والامتثال المالي وعقود التأسيس.',
-                            'phone' => '+971 4 555 1236',
-                            'email' => 'marcus@dr-ali.ae',
+                                ? 'Marcus advises tech startups and multi-national corporations on licensing, venture capital, and compliance within Casablanca Finance City (CFC).'
+                                : 'يقدم ماركوس المشورة القانونية للشركات التكنولوجية والشركات متعددة الجنسيات حول التراخيص والاستثمار الجريء والامتثال داخل القطب المالي للدار البيضاء (CFC).',
+                            'phone' => '+212 5 22 555 125',
+                            'email' => 'marcus@dr-ali.ma',
                             'image' => 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400'
                         )
                     );

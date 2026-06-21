@@ -9,9 +9,9 @@ get_header();
 
 $is_en = ( get_locale() === 'en_US' );
 
-$phone_number = '+97145551234';
-$phone_display = '+971 4 555 1234';
-$email_address = 'info@dr-ali.ae';
+$phone_number = '+212522555123';
+$phone_display = '+212 5 22 555 123';
+$email_address = 'info@dr-ali.ma';
 
 ?>
 
@@ -41,13 +41,13 @@ $email_address = 'info@dr-ali.ae';
             <!-- Left Contact Info Details -->
             <div class="contact-info-panel reveal reveal-fade-right">
                 <span class="sub-title text-gold-dark text-sm font-bold block mb-2"><?php echo $is_en ? 'OFFICE DETAILED INFO' : 'تفاصيل العناوين والاتصال'; ?></span>
-                <h2 class="text-forest text-3xl font-bold mb-6"><?php echo $is_en ? 'Visit Our Dubai Headquarters' : 'تفضل بزيارة مكتبنا الرئيسي في دبي'; ?></h2>
+                <h2 class="text-forest text-3xl font-bold mb-6"><?php echo $is_en ? 'Visit Our Casablanca Headquarters' : 'تفضل بزيارة مكتبنا الرئيسي في الدار البيضاء'; ?></h2>
                 
                 <p class="text-dark-grey leading-relaxed mb-8">
                     <?php
                     echo $is_en
-                        ? 'Our main offices are located in the heart of Dubais financial district in Business Bay. We offer secure, private meeting coordinates for corporate clients and individuals seeking discrete advisory consultations.'
-                        : 'يقع مقر مكتبنا الرئيسي في قلب المركز المالي النابض لدبي بمنطقة الخليج التجاري. نحن نوفر مساحة خاصة وآمنة لعقد الاجتماعات والمشاورات القانونية مع عملائنا من الشركات والأفراد.';
+                        ? 'Our main offices are located in the heart of Casablancas financial district in Casablanca Marina. We offer secure, private meeting coordinates for corporate clients and individuals seeking discrete advisory consultations.'
+                        : 'يقع مقر مكتبنا الرئيسي في قلب المركز المالي النابض للدار البيضاء بمنطقة كازابلانكا مارينا. نحن نوفر مساحة خاصة وآمنة لعقد الاجتماعات والمشاورات القانونية مع عملائنا من الشركات والأفراد.';
                     ?>
                 </p>
 
@@ -56,7 +56,7 @@ $email_address = 'info@dr-ali.ae';
                         <div class="method-icon">📍</div>
                         <div class="method-details">
                             <h4><?php echo $is_en ? 'Address Coordinates' : 'العنوان الجغرافي للمكتب'; ?></h4>
-                            <p><?php echo $is_en ? 'Business Bay, Executive Towers, Tower B, Level 15, Office 1504, Dubai, UAE' : 'الخليج التجاري، أبراج إكزيكتيف، برج B، الطابق 15، مكتب رقم 1504، دبي'; ?></p>
+                            <p><?php echo $is_en ? 'Casablanca Marina, Crystal Building 1, Floor 6, Office 602, Casablanca, Morocco' : 'كازابلانكا مارينا، مبنى الكريستال 1، الطابق 6، مكتب رقم 602، الدار البيضاء، المغرب'; ?></p>
                         </div>
                     </div>
                     <div class="method-card">
@@ -116,7 +116,7 @@ $email_address = 'info@dr-ali.ae';
                                 <option value="Corporate"><?php echo $is_en ? 'Corporate & Commercial' : 'تأسيس وقضايا الشركات'; ?></option>
                                 <option value="Real Estate"><?php echo $is_en ? 'Real Estate Disputes' : 'المنازعات العقارية والإنشاءات'; ?></option>
                                 <option value="Litigation"><?php echo $is_en ? 'Commercial Litigation' : 'التقاضي والتمثيل القضائي'; ?></option>
-                                <option value="Arbitration"><?php echo $is_en ? 'Arbitration & DIFC' : 'التحكيم ومحاكم DIFC'; ?></option>
+                                <option value="Arbitration"><?php echo $is_en ? 'Arbitration & Cassation' : 'التحكيم ومحكمة النقض'; ?></option>
                                 <option value="Other"><?php echo $is_en ? 'Other Legal Consultation' : 'استشارة قانونية أخرى'; ?></option>
                             </select>
                         </div>

@@ -1,5 +1,5 @@
 /**
- * Canvas Hero Animation: Dr Ali Law Firm (Dubai)
+ * Canvas Hero Animation: Dr Ali Law Firm (Casablanca)
  * Renders a slow, elegant particle network of golden nodes and thin connection lines
  */
 

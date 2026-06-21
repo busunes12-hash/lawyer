@@ -16,9 +16,9 @@ $opposite_lang = $is_en ? 'ar' : 'en';
 $opposite_lang_label = $is_en ? 'العربية' : 'English';
 
 // Quick contacts
-$phone_number = '+97145551234';
-$phone_display = '+971 4 555 1234';
-$email_address = 'info@dr-ali.ae';
+$phone_number = '+212522555123';
+$phone_display = '+212 5 22 555 123';
+$email_address = 'info@dr-ali.ma';
 $consultation_text = $is_en ? 'Book Consultation' : 'احجز استشارة';
 $consultation_link = home_url( $is_en ? '/en/contact/' : '/contact/' ); // fallback to contact page or section
 
@@ -35,8 +35,8 @@ $consultation_link = home_url( $is_en ? '/en/contact/' : '/contact/' ); // fallb
 	$seo_desc = '';
 	if ( is_front_page() || is_home() ) {
 		$seo_desc = $is_en 
-			? 'Dr. Ali Law Firm in Dubai represents the pinnacle of legal excellence, providing high-end commercial and corporate counsel representing clients across UAE courts.'
-			: 'مكتب الدكتور علي للمحاماة والاستشارات القانونية في دبي - نقدم استشارات وحلولاً قانونية متكاملة للشركات والأفراد، ونمثل عملائنا بنخبة من أفضل المحامين أمام جميع المحاكم الإماراتية.';
+			? 'Dr. Ali Law Firm in Morocco represents the pinnacle of legal excellence, providing high-end commercial and corporate counsel representing clients across Moroccan courts.'
+			: 'مكتب الدكتور علي للمحاماة والاستشارات القانونية في المغرب - نقدم استشارات وحلولاً قانونية متكاملة للشركات والأفراد، ونمثل عملائنا بنخبة من أفضل المحامين أمام جميع المحاكم المغربية.';
 	} elseif ( is_singular() ) {
 		$seo_desc = get_the_excerpt();
 		if ( empty( $seo_desc ) ) {
@@ -77,16 +77,16 @@ $consultation_link = home_url( $is_en ? '/en/contact/' : '/contact/' ); // fallb
 		"email": "<?php echo esc_attr( $email_address ); ?>",
 		"address": {
 			"@type": "PostalAddress",
-			"streetAddress": "<?php echo $is_en ? 'Business Bay, Executive Towers, Tower B, Level 15' : 'الخليج التجاري، أبراج إكزيكتيف، برج B، الطابق 15'; ?>",
-			"addressLocality": "Dubai",
-			"addressRegion": "Dubai",
-			"postalCode": "00000",
-			"addressCountry": "AE"
+			"streetAddress": "<?php echo $is_en ? 'Casablanca Marina, Crystal Building 1, Floor 6' : 'كازابلانكا مارينا، مبنى الكريستال 1، الطابق 6'; ?>",
+			"addressLocality": "Casablanca",
+			"addressRegion": "Casablanca",
+			"postalCode": "20000",
+			"addressCountry": "MA"
 		},
 		"geo": {
 			"@type": "GeoCoordinates",
-			"latitude": "25.1856",
-			"longitude": "55.2708"
+			"latitude": "33.6067",
+			"longitude": "-7.6186"
 		},
 		"url": "<?php echo esc_url( home_url( '/' ) ); ?>",
 		"priceRange": "$$$",
@@ -128,7 +128,7 @@ $consultation_link = home_url( $is_en ? '/en/contact/' : '/contact/' ); // fallb
 				</a>
 				<span class="contact-item hidden-mobile">
 					<span class="icon">📍</span>
-					<span class="text"><?php echo $is_en ? 'Dubai, UAE' : 'دبي، الإمارات العربية المتحدة'; ?></span>
+					<span class="text"><?php echo $is_en ? 'Casablanca, Morocco' : 'الدار البيضاء، المغرب'; ?></span>
 				</span>
 			</div>
 			

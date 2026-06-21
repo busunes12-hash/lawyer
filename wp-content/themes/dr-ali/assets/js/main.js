@@ -1,5 +1,5 @@
 /**
- * Main Interaction Javascript: Dr Ali Law Firm (Dubai)
+ * Main Interaction Javascript: Dr Ali Law Firm (Casablanca)
  * Pure vanilla JavaScript (jQuery-Free)
  */
 

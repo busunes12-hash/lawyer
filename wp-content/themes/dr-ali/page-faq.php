@@ -159,38 +159,38 @@ $is_en = ( get_locale() === 'en_US' );
                     $mock_faqs = array(
                         'corporate' => array(
                             array(
-                                'q' => $is_en ? 'Can a foreigner own 100% of an onshore business in Dubai?' : 'هل يمكن للمستثمر الأجنبي التملك الكامل بنسبة 100% للشركات داخل دبي؟',
+                                'q' => $is_en ? 'Can a foreigner own 100% of a business in Morocco?' : 'هل يمكن للمستثمر الأجنبي التملك الكامل بنسبة 100% للشركات في المغرب؟',
                                 'a' => $is_en 
-                                    ? 'Yes, under the amended UAE Commercial Companies Law, foreign investors can now own 100% of onshore companies in various sectors without requiring a local Emirati partner.'
-                                    : 'نعم، بموجب التعديلات الأخيرة على قانون الشركات التجارية الإماراتي، أصبح بإمكان المستثمرين الأجانب تملك الشركات التجارية بنسبة 100% في العديد من الأنشطة الاقتصادية دون الحاجة لشريك أو وكيل خدمات مواطن.'
+                                    ? 'Yes, under Moroccan corporate law, foreign investors can own 100% of companies in almost all sectors without requiring a local partner. Exchange controls are regulated by the Office des Changes.'
+                                    : 'نعم، بموجب القانون التجاري المغربي، يمكن للمستثمرين الأجانب تملك الشركات بالكامل بنسبة 100% في أغلب القطاعات دون الحاجة لشريك مغربي، وتخضع المعاملات المالية لضوابط مكتب الصرف.'
                             ),
                             array(
-                                'q' => $is_en ? 'What is the corporate tax rate in the UAE?' : 'ما هي نسبة ضريبة الشركات المطبقة حالياً في دولة الإمارات؟',
+                                'q' => $is_en ? 'What is the corporate tax rate in Morocco?' : 'ما هي نسبة ضريبة الشركات المطبقة في المغرب؟',
                                 'a' => $is_en 
-                                    ? 'A federal corporate tax rate of 9% is applicable on taxable business profits exceeding AED 375,000. Free zone companies may qualify for a 0% rate on qualifying income.'
-                                    : 'تطبق ضريبة الشركات الاتحادية بنسبة 9% على الأرباح الخاضعة للضريبة التي تتجاوز 375,000 درهم إماراتي. بينما تستمر الشركات في المناطق الحرة بالاستفادة من نسبة 0% بشروط محددة.'
+                                    ? 'Morocco applies a progressive corporate tax scale ranging from 10% to 31%. Companies operating in zones like Casablanca Finance City (CFC) enjoy specific tax exemptions.'
+                                    : 'تطبق في المغرب ضريبة تصاعدية على الشركات تتراوح نسبتها بين 10% و31%. بينما تستفيد الشركات الحاصلة على صفة القطب المالي للدار البيضاء (CFC) من إعفاءات ضريبية خاصة بشروط محددة.'
                             )
                         ),
                         'property' => array(
                             array(
-                                'q' => $is_en ? 'How are landlord-tenant rental disputes resolved in Dubai?' : 'كيف يتم فض المنازعات الإيجارية بين المؤجر والمستأجر في دبي؟',
+                                'q' => $is_en ? 'How are landlord-tenant rental disputes resolved in Morocco?' : 'كيف يتم فض المنازعات الإيجارية بين المالك والمستأجر في المغرب؟',
                                 'a' => $is_en 
-                                    ? 'Rental disputes are managed by the Rental Dispute Centre (RDC) under the Dubai Land Department. Filing a dispute case requires formal leases and Ejari registration.'
-                                    : 'تتم إدارة وفض جميع النزاعات الإيجارية من خلال مركز فض المنازعات الإيجارية (RDC) التابع لدائرة الأراضي والأملاك بدبي، ويشترط لرفع الدعوى وجود عقد إيجار مسجل رسمياً في نظام (إيجاري).'
+                                    ? 'Rental disputes are handled by the Ordinary Courts (Civil Chamber). Filing a dispute requires a written lease agreement and registration with local municipal authorities.'
+                                    : 'يتم فض النزاعات الإيجارية أمام المحاكم الابتدائية (الغرفة المدنية)، ويشترط لرفع الدعوى وجود عقد كراء مكتوب ومصادق عليه لدى السلطات الجماعية المحلية.'
                             ),
                             array(
-                                'q' => $is_en ? 'Can a developer cancel a property project arbitrarily?' : 'هل يحق للمطور العقاري إلغاء المشروع أو تأجيله دون سند قانوني؟',
+                                'q' => $is_en ? 'Can a developer cancel a property project arbitrarily?' : 'هل يحق للمنعش العقاري إلغاء المشروع أو تأجيله دون سند قانوني؟',
                                 'a' => $is_en 
-                                    ? 'No. Projects can only be formally cancelled through RERA under strict legal guidelines. Investors are protected and entitled to refunds under trust account regulations.'
-                                    : 'لا، يتم إلغاء المشاريع أو تجميدها فقط بقرار رسمي من مؤسسة التنظيم العقاري (RERA) ووفق ضوابط قانونية صارمة لضمان حماية أموال المستثمرين المودعة في حساب الضمان.'
+                                    ? 'No. Property developments are protected under Law 44-00 on Sales Before Completion (VEFA). Funds must be placed in a bank guarantee, and project modifications require municipal approval.'
+                                    : 'لا، مشاريع التطوير العقاري محمية بموجب قانون بيع العقار في طور الإنجاز (VEFA) رقم 44-00، حيث يلتزم المنعش العقاري بتقديم ضمانة بنكية أو تأمين، ولا يصح تعديل المشروع دون موافقة الجهات المختصة.'
                             )
                         ),
                         'general' => array(
                             array(
-                                'q' => $is_en ? 'Does the firm represent clients in DIFC Courts?' : 'هل يمثل المكتب الموكلين أمام محاكم مركز دبي المالي العالمي (DIFC)؟',
+                                'q' => $is_en ? 'Does the firm represent clients in the Court of Cassation?' : 'هل يمثل المكتب الموكلين أمام محكمة النقض بالرباط؟',
                                 'a' => $is_en 
-                                    ? 'Yes. Our attorneys are fully registered and carry rights of audience before the common law courts of the DIFC, in addition to local civil courts.'
-                                    : 'نعم، يحظى محامونا بالتسجيل الكامل ولهم حق الحضور والمرافعة أمام محاكم مركز دبي المالي العالمي (DIFC) التي تعمل بنظام القانون العام، بالإضافة إلى المحاكم المدنية المحلية.'
+                                    ? 'Yes. Our senior attorneys are fully admitted and carry rights of audience before the Court of Cassation in Rabat (the highest court in Morocco), in addition to local Commercial and Appeal courts.'
+                                    : 'نعم، يحظى محامونا المقيدون بالحق في الترافع والمرافعة أمام محكمة النقض بالرباط (أعلى سلطة قضائية بالمغرب)، بالإضافة إلى المحاكم التجارية ومحاكم الاستئناف بمختلف المدن.'
                             )
                         )
                     );

@@ -47,8 +47,8 @@ $current_service_id = get_the_ID();
                         <p class="lead font-bold text-lg text-forest mb-6">
                             <?php
                             echo $is_en
-                                ? 'We provide high-end legal advisory and representation, customized for the specific commercial environment of Dubai.'
-                                : 'نحن نقدم خدمات تمثيل واستشارات قانونية راقية، مصممة خصيصاً لتناسب البيئة التجارية المتميزة في دبي.';
+                                ? 'We provide high-end legal advisory and representation, customized for the specific commercial environment of Morocco and the Casablanca Finance City (CFC) ecosystem.'
+                                : 'نحن نقدم خدمات تمثيل واستشارات قانونية راقية، مصممة خصيصاً لتناسب البيئة التجارية والاستثمارية في المغرب والقطب المالي للدار البيضاء (CFC).';
                             ?>
                         </p>
                         <p>
@@ -103,7 +103,7 @@ $current_service_id = get_the_ID();
                                         : 'يعتمد ذلك على تعقيد الملف، ولكن أغلب الاستشارات وإعداد العقود ينجز في غضون أسبوعين إلى 4 أسابيع، بينما تخضع القضايا لجدول جلسات المحاكم.'
                                 ),
                                 array(
-                                    'q' => $is_en ? 'Do you handle cross-border jurisdictions?' : 'هل تغطي خدماتكم القضايا خارج حدود الإمارات؟',
+                                    'q' => $is_en ? 'Do you handle cross-border jurisdictions?' : 'هل تغطي خدماتكم القضايا خارج حدود المغرب؟',
                                     'a' => $is_en 
                                         ? 'Yes, our counsel works in partnership with leading international law firms to offer legal representation across international borders.' 
                                         : 'نعم، يعمل مكتبنا بالتعاون مع شبكة من كبرى مكاتب المحاماة الدولية لتقديم خدمات الدفاع والاستشارات عبر الحدود والقوانين العابرة للدول.'

@@ -12,10 +12,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 $is_rtl = is_rtl();
 $is_en = ( get_locale() === 'en_US' );
 
-$phone_number = '+97145551234';
-$phone_display = '+971 4 555 1234';
-$email_address = 'info@dr-ali.ae';
-$whatsapp_number = '971555123456'; // Dubai number format
+$phone_number = '+212522555123';
+$phone_display = '+212 5 22 555 123';
+$email_address = 'info@dr-ali.ma';
+$whatsapp_number = '212661234567'; // Morocco number format
 $whatsapp_message = rawurlencode( $is_en ? 'Hello Dr Ali Law Firm, I would like to inquire about your legal services.' : 'مرحباً مكتب الدكتور علي للمحاماة، أود الاستفسار عن الخدمات القانونية.' );
 
 ?>
@@ -45,8 +45,8 @@ $whatsapp_message = rawurlencode( $is_en ? 'Hello Dr Ali Law Firm, I would like 
 				<p class="text-light-grey text-sm leading-relaxed mb-6">
 					<?php 
 					echo $is_en 
-						? 'Dr. Ali Law Firm in Dubai represents the pinnacle of legal excellence, providing high-end commercial and corporate counsel.' 
-						: 'يمثل مكتب الدكتور علي للمحاماة والاستشارات القانونية في دبي قمة التميز القانوني، حيث نقدم حلولاً واستشارات مبتكرة للشركات والأفراد.';
+						? 'Dr. Ali Law Firm in Morocco represents the pinnacle of legal excellence, providing high-end commercial and corporate counsel.' 
+						: 'يمثل مكتب الدكتور علي للمحاماة والاستشارات القانونية في المغرب قمة التميز القانوني، حيث نقدم حلولاً واستشارات مبتكرة للشركات والأفراد.';
 					?>
 				</p>
 				<!-- Social Buttons Row -->
@@ -120,11 +120,11 @@ $whatsapp_message = rawurlencode( $is_en ? 'Hello Dr Ali Law Firm, I would like 
 						<span class="icon mt-1">
 							<svg class="footer-contact-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="var(--color-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
 						</span>
-						<a href="https://maps.google.com/?q=Business+Bay,+Executive+Towers,+Dubai" target="_blank" rel="noopener noreferrer" class="hover:text-gold">
+						<a href="https://maps.google.com/?q=Casablanca+Marina,+Casablanca,+Morocco" target="_blank" rel="noopener noreferrer" class="hover:text-gold">
 							<?php 
 							echo $is_en 
-								? 'Business Bay, Executive Towers, Tower B, Level 15, Dubai, UAE' 
-								: 'الخليج التجاري، أبراج إكزيكتيف، برج B، الطابق 15، دبي، الإمارات العربية المتحدة'; 
+								? 'Casablanca Marina, Crystal Building 1, Floor 6, Casablanca, Morocco' 
+								: 'كازابلانكا مارينا، مبنى الكريستال 1، الطابق 6، الدار البيضاء، المغرب'; 
 							?>
 						</a>
 					</li>
@@ -143,8 +143,8 @@ $whatsapp_message = rawurlencode( $is_en ? 'Hello Dr Ali Law Firm, I would like 
 					<li class="mt-6 border-t border-light-forest pt-4 text-xs text-light-grey opacity-75">
 						<svg class="footer-license-icon inline-block align-middle me-2" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="var(--color-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block; vertical-align: middle; margin-inline-end: 0.5rem;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
 						<?php echo $is_en 
-							? 'Licensed by the Dubai Legal Affairs Department. Registration No. 1024/2026.' 
-							: 'مرخص من دائرة الشؤون القانونية لحكومة دبي. رقم القيد 1024/2026.'; ?>
+							? 'Registered with the Casablanca Bar Association. Registration No. 748/2026.' 
+							: 'مقيد بهيئة المحامين بالدار البيضاء. رقم القيد 748/2026.'; ?>
 					</li>
 				</ul>
 			</div>

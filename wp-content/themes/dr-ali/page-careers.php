@@ -50,8 +50,8 @@ $is_en = ( get_locale() === 'en_US' );
                 <p class="text-dark-grey leading-relaxed mb-8">
                     <?php
                     echo $is_en
-                        ? 'We are continuously seeking qualified bilingual legal practitioners, researchers, paralegals, and legal consultants to join our offices in Business Bay, Dubai.'
-                        : 'نحن نبحث باستمرار عن الكوادر المؤهلة والنشطة من المحامين، الباحثين القانونيين، والمستشارين ثنائيي اللغة (العربية والإنجليزية) للانضمام لمكتبنا في الخليج التجاري بدبي.';
+                        ? 'We are continuously seeking qualified bilingual legal practitioners, researchers, paralegals, and legal consultants to join our offices in Casablanca Marina, Casablanca.'
+                        : 'نحن نبحث باستمرار عن الكوادر المؤهلة والنشطة من المحامين، الباحثين القانونيين، والمستشارين ثنائيي اللغة للانضمام لمكتبنا في كازابلانكا مارينا بالدار البيضاء.';
                     ?>
                 </p>
 

@@ -60,7 +60,7 @@ $is_en = ( get_locale() === 'en_US' );
                                 <?php if ( has_post_thumbnail() ) : ?>
                                     <?php the_post_thumbnail( 'large' ); ?>
                                 <?php else : ?>
-                                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400" alt="<?php the_title(); ?>">
+                                    <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/founder.jpg' ); ?>" alt="<?php the_title(); ?>">
                                 <?php endif; ?>
                             </div>
                             <div class="team-info">
@@ -93,7 +93,7 @@ $is_en = ( get_locale() === 'en_US' );
                                 : 'يحمل الدكتور علي دكتوراه في القانون التجاري وله خبرة تزيد عن 15 عاماً في تقديم الاستشارات لكبرى الشركات في المغرب ومنطقة شمال إفريقيا.',
                             'phone' => '+212 5 22 555 123',
                             'email' => 'ali@dr-ali.ma',
-                            'image' => 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400'
+                            'image' => get_template_directory_uri() . '/assets/images/founder.jpg'
                         ),
                         array(
                             'name'  => $is_en ? 'Fatima Zahra Bennani' : 'فاطمة الزهراء بناني',
@@ -103,7 +103,7 @@ $is_en = ( get_locale() === 'en_US' );
                                 : 'تتخصص فاطمة في قوانين التطوير العقاري المعقدة وتمثل كبار المطورين والمستثمرين أمام المركز الدولي للوساطة والتحكيم بالدار البيضاء (CIMAC) والمحاكم المغربية.',
                             'phone' => '+212 5 22 555 124',
                             'email' => 'fatima@dr-ali.ma',
-                            'image' => 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400'
+                            'image' => get_template_directory_uri() . '/assets/images/team-fatima.jpg'
                         ),
                         array(
                             'name'  => $is_en ? 'Marcus Vance' : 'ماركوس فانس',
@@ -113,7 +113,7 @@ $is_en = ( get_locale() === 'en_US' );
                                 : 'يقدم ماركوس المشورة القانونية للشركات التكنولوجية والشركات متعددة الجنسيات حول التراخيص والاستثمار الجريء والامتثال داخل القطب المالي للدار البيضاء (CFC).',
                             'phone' => '+212 5 22 555 125',
                             'email' => 'marcus@dr-ali.ma',
-                            'image' => 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400'
+                            'image' => get_template_directory_uri() . '/assets/images/team-marcus.jpg'
                         )
                     );
 

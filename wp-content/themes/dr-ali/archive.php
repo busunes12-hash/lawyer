@@ -45,7 +45,7 @@ $is_en = ( get_locale() === 'en_US' );
                                 <?php if ( has_post_thumbnail() ) : ?>
                                     <?php the_post_thumbnail( 'medium_large' ); ?>
                                 <?php else : ?>
-                                    <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&q=80&w=400" alt="<?php the_title(); ?>">
+                                    <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/blog-fallback.jpg' ); ?>" alt="<?php the_title(); ?>">
                                 <?php endif; ?>
                             </div>
                             <div class="blog-content">
